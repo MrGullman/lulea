@@ -484,8 +484,37 @@ footer {
 .footer-content {
   width: 100%;
   padding-top: 2em;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: row;
+  text-align: left;
+  justify-content: center;
+}
+
+.footer-nav , .social-links {
+  margin: auto;
+  width: 30%
+}
+
+.footer-nav a , .social-links a {
+  color: #fff;
+}
+
+.social-links li.facebook a {
+  
+}
+
+.social-links li.facebook a {
+  
+}
+
+.social-links li.facebook a {
+  
+}
+
+.social-links li.facebook a {
+  
+}
+
+.social-links li.facebook a {
   
 }
 
