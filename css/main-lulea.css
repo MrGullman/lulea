@@ -32,7 +32,8 @@ body {
 .object-content-wrap,
 .left-content-inner,
 .footer-wrapper,
-.footer-content {
+.footer-content,
+.container2 {
   display: flex;
 }
 
@@ -385,7 +386,7 @@ OBJECT
 
 
 /*NEMO*/
-.wrapper{
+/*.wrapper{
   width:100%;
 }
 .left-content-adress{
@@ -453,6 +454,195 @@ input[type=checkbox]{
 input[type="submit"]{
 border: 1px solid;
 border-color: #00508f;  /* green */
+/*color: #fff;
+background: #00508f;    /* green */
+/*padding: 10px 20px;
+border-radius: 3px;
+}
+
+input[type="submit"]:hover{
+border-color: #1b5d89;  /* green */
+/*background: #1b5d89;    /* green */
+/*}*/
+
+
+.wrapper{
+  width:100%;
+}
+.left-content-adress{
+  width: 50%;
+  height: 500px;
+  float: left;
+  background-color: #00508f;
+}
+.right-content-adress{
+  width: 50%;
+  height: 500px;
+  float: right;
+  background-color: #eb8f33;
+}
+.left-inner-container{
+  width: 100%;
+  max-width:585px;
+  float:right;
+  flex-direction: column;
+  min-height: 400px;
+  padding-left: 10px;
+  padding-right: 25px;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+.right-inner-container{
+  width:100%;
+  max-width: 585px;
+  float:left;
+  flex-direction: column;
+  max-width: 585px;
+  min-height: 400px;
+  padding-left: 35px;
+  padding-right: 10px;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}/**/
+
+
+.object-content-wrap2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+address, article {
+  color: white;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.content-wrap2 {
+  width: 100%;
+  background-color: #00508f;
+}
+
+.container2{
+  width:100%;
+  max-width: 1170px;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 3%;
+}
+section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.narlivs {
+  width: 65%;
+  float:left;
+  padding-right: 20px;
+}
+
+
+aside {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  width: 35%;
+  float:right;
+  border-radius: 25px;
+}
+
+aside img {
+  margin: 3%;
+}
+
+aside > p{
+  color: black;
+}
+
+table {
+  margin-top: 10px;
+  width: 98%;
+  text-align: left;
+  background-color: #eb8f33;
+  border-radius: 10px;
+
+}
+tbody {
+  padding-left: 5px;
+}
+
+table th{
+border-bottom:solid 2px white;
+ padding-left: 10px;
+}
+table td{
+  padding-left: 15px;
+}
+tr:nth-child(even) {background-color: #d88103}
+
+.naringsliv2 article h2,
+.naringsliv2 article h3,
+.naringsliv2 article p{
+  color:black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.container2 .midwrap{
+  display: flex;
+  justify-content: center;
+}
+.midwrap article{
+  width: 90%;
+  text-align: center;
+  color: black;
+}
+.midwrap article p{
+  text-align: justify;
+  color: black;
+}
+
+.naringsliv2 {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin-top:0px;
+  padding-top:0px;
+}
+.naringsliv2 article {
+  float: left;
+  width: 32%;
+}
+.positioning1{
+  margin-top: 35px;
+}
+.positioning2{
+  margin-top: 3px;
+}
+
+#email, #message{
+  width: 80%;
+  margin: 8px 0px;
+}
+address a{
+  color: #eb8f33;
+}
+
+input[type='email']:focus, #message:focus{
+  background-color: lightblue;
+}
+input[type=submit]:hover {
+    background: darkgreen;
+}
+input[type=checkbox]{
+  margin: 8px 0px;
+}
+input[type="submit"]{
+border: 1px solid;
+border-color: #00508f;  /* green */
 color: #fff;
 background: #00508f;    /* green */
 padding: 10px 20px;
@@ -463,6 +653,7 @@ input[type="submit"]:hover{
 border-color: #1b5d89;  /* green */
 background: #1b5d89;    /* green */
 }
+
 
 /**************************
 FOOTER
@@ -491,7 +682,7 @@ footer {
 
 .footer-nav , .social-links {
   margin: auto;
-  width: 30%
+  width: 25%
 }
 
 .footer-nav a , .social-links a {
@@ -534,7 +725,7 @@ footer {
   background-image: url('../img/li.svg');
 }
 
-/**************************
+/***************************
 COLOR
 **************************/
 
